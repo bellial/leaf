@@ -75,27 +75,29 @@
 				</section>
 			</nav>
 		</div>
-		<section id="carrossel-header" class="w-100 owl-carousel owl-theme">
-			<div class="item">
-				<div class="item_header">
+		<section id="carrossel-header" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carrossel-header" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carrossel-header" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carrossel-header" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
 					<a href="#">
-						<img src="./assets/images/banner1.png" alt="" class="img-fluid">
+						<img src="./assets/images/banner1.png" alt="" class="d-block w-100">
+					</a>
+				</div>
+				<div class="carousel-item ">
+					<a href="#">
+						<img src="./assets/images/banner1.png" alt="" class="d-block w-100">
+					</a>
+				</div>
+				<div class="carousel-item ">
+					<a href="#">
+						<img src="./assets/images/banner1.png" alt="" class="d-block w-100">
 					</a>
 				</div>
 			</div>
-			<div class="item">
-				<div class="item_header">
-					<a href="#">
-						<img src="./assets/images/banner1.png" alt="" class="img-fluid">
-					</a>
-				</div>
-			</div>
-			<div class="item">
-				<div class="item_header">
-					<a href="#">
-						<img src="./assets/images/banner1.png" alt="" class="img-fluid">
-					</a>
-				</div>
-			</div>
+			
 		</section>
 	</header>

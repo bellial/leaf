@@ -92,18 +92,7 @@
         }
     });
   }
-  
-  $('#carrossel-header').owlCarousel({
-    loop: true,
-    margin: 0,
-    nav: false,
-    dots: true,
-    items: 1,
-    smartSpeed: 400,
-    autoplay: true,
-    autoplayTimeout: 7000,
-    autoplayHoverPause: true,
-  });
+
   
 
 

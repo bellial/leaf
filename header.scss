@@ -57,10 +57,13 @@
         border-radius: 0 !important;
       }
     }
-    button.owl-dot {
-      background-color: transparent !important;
-      border: none !important;
-    }
+    .carousel-indicators [data-bs-target] {
+
+       width: 20px;
+       height: 0; 
+       transition: opacity .6s ease;
+      border-radius: 100%;
+  }
   }
   // Responsive
   @media (max-width: 991px) {
@@ -72,6 +75,9 @@
       a {
         max-width: 160px;
       }
+    }
+    .carousel-indicators {
+      margin-bottom: 0;
     }
   }
 }
