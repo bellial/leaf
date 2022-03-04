@@ -1,0 +1,42 @@
+/*!
+  Theme Name: WP-Theme
+  Theme URI: http://wp-theme.com.br/
+  Author: Elias Faiçal
+  Author URI: Elias Faiçal - http://eliasfaical.com.br/
+  Description: WP-Theme
+  Version: 1.0
+  License: GNU General Public License v2 or later
+  License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+// Bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+// Helpers
+@import 'helpers/colors';
+@import 'helpers/mixins';
+@import 'helpers/owl.carousel.min';
+@import 'helpers/owl.theme.default.min';
+
+// components
+@import 'components/base';
+@import 'components/wordpress';
+@import 'components/button';
+@import 'components/form-search';
+@import 'components/social-icon';
+@import 'components/contact-form';
+
+// Header
+@import 'header/header';
+@import 'header/nav';
+@import 'header/nav-mobile';
+
+// Footer
+@import 'footer/footer';
+
+// Pages
+@import 'pages/pages';
+@import 'pages/home';
+@import 'pages/quem-somos';
+@import 'pages/contato';
+@import 'pages/404';

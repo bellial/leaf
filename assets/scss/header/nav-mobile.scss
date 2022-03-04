@@ -1,0 +1,60 @@
+//default state
+.menu-icon {
+	$size: 35px;
+	width: 35px;
+	z-index: 2;
+	cursor: pointer;
+  display: none;
+	float: right;
+	z-index: 5;
+	position: relative;
+
+	&__line{
+		height: 3px;
+		width: $size;
+		display: block;
+		background-color: #52465c;
+		margin-bottom: 4px;
+		transition: transform .2s ease, background-color .5s ease;
+	}
+
+	&__line-left{
+		width: $size / 2;
+	}
+
+	&__line-right{
+		width: $size / 2;
+		float: right;
+	}
+
+  // Responsive
+  @media (max-width: 1200px) {
+    display: block;
+  }
+}
+
+
+//active state
+.site-header.open {
+	$menu--items--count: 5;
+	
+	.boxNav_main {
+		right: 0;
+
+		.close_menu {
+			display: flex;
+		}
+	}
+
+	// .menu-icon{
+	// 	&__line{
+	// 		transform: translateX(0px) rotate(-45deg);
+	// 	}
+	// 	&__line-left{
+	// 		transform: translateX(1px) rotate(45deg);
+	// 	}
+	// 	&__line-right{
+	// 		transform: translateX(-2px) rotate(45deg);
+	// 	}
+	// }
+}

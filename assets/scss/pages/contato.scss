@@ -1,0 +1,43 @@
+.contato {
+  font-family: "nudista-web", sans-serif;
+  font-style: italic;
+ 
+
+  .container {
+    max-width: 960px !important;
+  }
+
+  textarea {
+    height: 264px;
+    border-radius: 2em;
+  }
+  #botao {
+    padding: 1em 4em;
+    float: right;
+    background-color: #52465c !important;
+    border-color: #52465c !important;
+    color: #e9c2ac;
+    font-weight: 700;
+  }
+
+}
+.local{
+  font-family: "nudista-web", sans-serif;
+  font-style: italic;
+  background: #52465c;
+  h4{
+    color: #fff;
+    margin-bottom: -0.1em;
+  }
+  p{
+    color: #e9c2ac;
+  }
+  @media (max-width: 991px) {
+    .local {
+      .col-sm.text-start{
+        text-align: center;
+        margin-top: 1em;
+      }
+    }
+  }
+}

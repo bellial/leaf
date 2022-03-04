@@ -1,0 +1,135 @@
+/* Owl carousel
+---------------------------------------------------------------------------- */
+.owl-theme {
+  .owl-item img {
+    width: auto;
+  }
+
+  .owl-nav.disabled+.owl-dots {
+    margin-top: 0;
+    position: absolute;
+    bottom: .4rem;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .owl-dots {
+    .owl-dot {
+      span {
+        width: 10px;
+        height: 10px;
+        opacity: .8;
+        border-radius: 50%;
+        background: #fff;
+        border: 1px solid $blue-100;
+      }
+
+      &.active {
+        span {
+          opacity: 1;
+          width: 14px;
+          height: 14px;
+          background: $blue-100;
+          border: 1px solid $blue-100;
+        }
+      }
+    }
+  }
+
+  .owl-nav {
+    .owl-prev,
+    .owl-next {
+      span {
+        height: auto;
+        color: $gray-5;
+        display: block;
+        font-size: 4.5rem;
+        line-height: 0.65;
+        background: none;
+      }
+    }
+
+    & [class*=owl-]:hover {
+      background: none;
+    }
+  }
+}
+
+
+.owl-thumbs {
+  display: flex;
+  margin-top: .8rem;
+  justify-content: flex-start;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+  button {
+    width: 170px;
+    border: 0;
+    margin: 0 .8rem 0 0;
+    padding: 0;
+    background: none;
+    opacity: 1;
+
+    // &.active {
+    //   opacity: 0.4;
+    // }
+  }
+}
+
+
+.owl-carousel .owl-video-play-icon {
+  background: url(./assets/images/owl.video.play.png) no-repeat;
+}
+
+
+/* Content Main
+---------------------------------------------------------------------------- */
+.site-main {
+  position: relative;
+  @include clearfix();
+
+  // Responsive
+  @media (max-width: 768px) {
+    overflow: hidden;
+  }
+}
+
+
+/* Pages
+---------------------------------------------------------------------------- */
+.inner_banner {
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+
+  h1, h2 {
+    font-size: 2.8rem;
+    margin: 0;
+  }
+
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  // Responsive
+  @media screen and (max-width: 768px) {
+    height: 200px;
+
+    h1, h2 {
+      font-size: 2rem;
+    }
+  }
+}

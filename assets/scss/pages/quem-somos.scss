@@ -1,0 +1,23 @@
+.quem-somos {
+  h1{
+    padding-top: 0;
+  }
+  section {
+    img{
+    margin-right: 2em;
+    float: left;
+  }
+}
+
+  
+  // 991
+  @media (max-width: 991px) {
+    .quem-somos {
+      section {
+      img {
+        margin-bottom: 2em;
+      }
+    }
+    }
+  }
+}

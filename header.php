@@ -7,13 +7,9 @@
 	
 	<!-- google fonts -->
 	<link rel="stylesheet" href="https://use.typekit.net/ngn4xws.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
 
 	<!-- style -->
 	<link rel="stylesheet" href="style.css">
-	
 </head>
 
 <body>

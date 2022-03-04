@@ -1,0 +1,6 @@
+1 - Instalar `yarn` ou `npm` globalmente 
+
+2 - Rodar `yarn` ou `npm` install na raiz do projeto
+
+3 - Executar `gulp` na raiz do projeto
+

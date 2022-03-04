@@ -1,0 +1,141 @@
+.site-main {
+  h1 {
+    color: #ca163f;
+    text-align: center;
+    padding-top: 4em;
+    font-family: "nudista-web", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+  }
+
+  .form-control::placeholder {
+    font-family: "nudista-web", sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    color: #52465c;
+  }
+}
+
+.carrossel-convenios {
+  background-image: url(./assets/images/banner-carrossel.png);
+  background-size: cover;
+  position: relative;
+  margin-top: -2.5em;
+  padding-bottom: 4em;
+}
+
+/* Banner hero
+--------------------------------------------------------------------- */
+.carrossel-wrap {
+  width: 1023px;
+}
+.banner_hero {
+  width: 100%;
+  position: relative;
+
+  .item_banner {
+    a {
+      display: block;
+    }
+  }
+
+  // ---
+  @media (max-width: 991px) {
+  }
+}
+.owl-theme .owl-item img {
+  border-radius: 20px;
+}
+.blog.container {
+  max-width: 960px;
+  .blog-post {
+    p {
+      color: #52465c;
+    }
+  }
+}
+/* CTA Chama a gente
+--------------------------------------------------------------------- */
+.chama {
+  padding: 2.5rem 0;
+  background: #52465c;
+  text-align: center;
+
+  .container {
+    max-width: 960px;
+  }
+  h2 {
+    color: #e9c2ac;
+    font-family: "nudista-web", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+  }
+  p {
+    color: #fff;
+    font-family: "nudista-web", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+  }
+  .btn-danger {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .nome.form-control {
+    width: 50em;
+  }
+}
+
+/* Quem somos
+--------------------------------------------------------------------- */
+.sobre {
+  h3 {
+    color: #52465c;
+    font-family: "nudista-web", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+  }
+
+  p {
+    color: #ca163f;
+    font-size: 0.9em;
+    font-family: "arboria", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  // 768
+  @media (max-width: 768px) {
+    padding: 3rem 0 1rem;
+
+    img {
+      margin-bottom: 2rem;
+    }
+  }
+}
+button {
+  z-index: 1;
+  position: relative;
+  background-color: #ca163f !important;
+  border-color: #ca163f !important;
+  filter: drop-shadow(11px 22px 15px rgba(0, 0, 0, 0.17));
+  font-family: "nudista-web", sans-serif;
+  font-style: italic;
+
+  h4 {
+    color: #e9c2ac;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  p {
+    line-height: 0;
+    font-weight: 400;
+  }
+  @media (max-width: 991px) {
+    .btn-text {
+      text-align: center !important;
+    }
+    p {
+      line-height: normal;
+    }
+  }
+}

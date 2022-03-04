@@ -1,0 +1,45 @@
+.btn-outline,
+.btn-default {
+  border: 0;
+  color: #fff;
+  outline: none;
+  font-size: .9rem;
+  font-weight: 400;
+  text-align: center;
+  background: $blue-100;
+  border-radius: 5px;
+  padding: .4rem 2rem;
+  display: table;
+  box-shadow: 0 2px 5px rgba($color: #000000, $alpha: .26);
+  @include transition;
+
+  svg {
+    margin-left: .3rem;
+  }
+
+  &:hover {
+    color: #fff;
+    background: $blue-200;
+
+    svg path {
+      fill: #fff;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: .5rem 1rem;
+    font-size: .9rem;
+  }
+}
+
+.btn-outline {
+  color: $blue-200;
+  background: none;
+  border: 1px solid $blue-200;
+
+  &:hover {
+    color: #fff;
+    background: $blue-200;
+  }
+}
+

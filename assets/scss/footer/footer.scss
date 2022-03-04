@@ -1,0 +1,207 @@
+/* Footer
+------------------------------------------------------------------------------ */
+.site-footer {
+  background: url(./assets/images/banner-rodape.png);
+  background-size: cover;
+  font-family: "nudista-web", sans-serif;
+  font-style: italic;
+
+  .container {
+    max-width: 960px;
+    padding: 4em 0;
+  }
+
+  nav {
+    font-weight: 700;
+    line-height: 0.5em;
+  }
+  button {
+    p {
+      line-height: normal;
+      margin: 0;
+      font-weight: 700;
+    }
+    img {
+      height: 40px;
+    }
+  }
+  @media (max-width: 991px) {
+    height: auto;
+
+    .container {
+      padding-top: 3rem !important;
+      padding: 0;
+      .row.row-cols-sm {
+        padding-right: 0;
+        .col-sm-3 {
+          padding-right: 1em;
+        }
+        a.col-sm {
+          margin: 1em 0;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+    button {
+      .text-start {
+        padding-right: 0.5em;
+      }
+    }
+    a .col-sm {
+      padding: 2em;
+      text-align: center;
+    }
+  }
+}
+
+/* Onde estamos
+------------------------------------------------------------------------------ */
+// .boxOndeEstamos_footer {
+//   padding: 3rem 0;
+//   background: $blue-200;
+//   color: #fff;
+
+//   h3 {
+//     font-weight: 700;
+//   }
+
+//   .enderecos {
+//     max-width: 600px;
+
+//     li {
+//       padding: 1rem 1.5rem;
+//       border: 2px solid $blue-100;
+//       border-radius: 8px;
+//       display: flex;
+//       justify-content: flex-start;
+//       align-items: center;
+//       margin: 1rem 0;
+//       transition: background 0.25s ease;
+
+//       &:hover {
+//         background: $blue-100;
+//         box-shadow: 0 2px 4px rgba($color: #000000, $alpha: 0.2);
+
+//         img {
+//           opacity: 1;
+//           visibility: visible;
+//         }
+//       }
+//     }
+
+//     img {
+//       margin-right: 1.3rem;
+//       opacity: 0;
+//       visibility: hidden;
+//       @include transition();
+//     }
+
+//     address {
+//       margin: 0;
+//     }
+
+//     strong {
+//       display: block;
+//     }
+
+//     p {
+//       margin: 0;
+//       font-size: 0.9rem;
+//     }
+//   }
+
+//   // Responsive
+//   // 768
+//   @media (max-width: 768px) {
+//     padding: 2rem 0;
+
+//     .enderecos {
+//       li {
+//         padding: 0.7rem 1rem;
+//       }
+
+//       img {
+//         margin-right: 0.7rem;
+//       }
+//     }
+//   }
+// }
+
+/* Informações footer
+------------------------------------------------------------------------------ */
+.info_footer {
+  color: #fff;
+  padding: 4rem 0;
+  background: $blue-300;
+
+  h4 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .btn-default {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    box-shadow: 0 4px 12px rgba($color: #000000, $alpha: 0.2);
+    img {
+      margin-right: 0.5rem;
+    }
+    strong {
+      display: inline-block;
+    }
+  }
+
+  .item_footer {
+    a,
+    span {
+      display: block;
+      color: #fff;
+      font-size: 0.9rem;
+    }
+  }
+
+  // Responsive
+  // 991
+  @media (max-width: 991px) {
+    padding: 2rem 0;
+
+    h4 {
+      font-size: 1rem;
+    }
+
+    .item_footer {
+      margin: 1rem 0;
+      text-align: center;
+    }
+
+    .logo-footer {
+      margin-top: 0.5rem;
+      width: 160px;
+      height: auto;
+    }
+
+    .avaliacao_button {
+      text-align: center;
+    }
+  }
+}
+
+/* Rodapé
+------------------------------------------------------------------------------ */
+.rodape {
+  text-align: center;
+  background: #ca163f;
+  padding: 0.5rem;
+
+  p {
+    text-align: center;
+    display: inline;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+}

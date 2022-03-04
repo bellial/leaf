@@ -25,14 +25,14 @@
 					<div class="item">
 						<div class="item_banner">
 							<a href="#">
-								<img src="./assets/images/Component 1.png" alt="Unimed" class="img-fluid">
+								<img src="./assets/images/Component-1.png" alt="Unimed" class="img-fluid">
 							</a>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item_banner">
 							<a href="#">
-								<img src="./assets/images/Component 2.png" alt="Bradesco Saúde" class="img-fluid">
+								<img src="./assets/images/Component-2.png" alt="Bradesco Saúde" class="img-fluid">
 							</a>
 						</div>
 					</div>
@@ -46,7 +46,21 @@
 					<div class="item">
 						<div class="item_banner">
 							<a href="#">
-								<img src="./assets/images/Grupo 119.png" alt="Porto Seguro" class="img-fluid">
+								<img src="./assets/images/Grupo-119.png" alt="Porto Seguro" class="img-fluid">
+							</a>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item_banner">
+							<a href="#">
+								<img src="./assets/images/Grupo-119.png" alt="Porto Seguro" class="img-fluid">
+							</a>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item_banner">
+							<a href="#">
+								<img src="./assets/images/Grupo-119.png" alt="Porto Seguro" class="img-fluid">
 							</a>
 						</div>
 					</div>
