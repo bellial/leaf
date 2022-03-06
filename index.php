@@ -9,7 +9,7 @@
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero</p>
 			</section>
 		</section>
-		<button type="button" class="btn btn-danger btn-sm rounded-pill align-items-center d-flex col-sm-8 mx-auto justify-content-evenly p-4">
+		<button type="button" class="btn btn-danger btn-sm rounded-pill align-items-center d-flex col-sm-8 mx-auto justify-content-evenly p-4 container">
 			<section class="btn-text text-start">
 				<h4>Agende sua consulta</h4>
 				<p>Clique e agende agora sua consulta</p>

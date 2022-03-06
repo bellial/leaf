@@ -79,7 +79,9 @@
       autoplayHoverPause: true,
       responsive: {
         0: {
-           items: 2,
+           items: 1,
+           center:true,
+           dots:true,
          },
          768: {
            items: 3,

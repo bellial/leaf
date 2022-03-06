@@ -50,7 +50,7 @@ function jsLib() {
 
 function browser() {
   browserSync.init({
-    proxy: 'http://localhost:8888/marina-almeida/wp-theme/',
+    proxy: 'http://localhost/marina-almeida/wp-theme/',
     ghostMode: {
       scroll: false
     },

@@ -7,7 +7,6 @@
   font-style: italic;
 
   .container {
-    max-width: 960px;
     padding: 4em 0;
   }
 
@@ -16,6 +15,7 @@
     line-height: 0.5em;
   }
   button {
+    padding: 1.5rem;
     p {
       line-height: normal;
       margin: 0;
@@ -25,6 +25,11 @@
       height: 40px;
     }
   }
+  @media (min-width: 1400px) {
+    button{
+      padding: 1.5rem 4rem;
+    }
+  }
   @media (max-width: 991px) {
     height: auto;
 
@@ -32,9 +37,15 @@
       padding-top: 3rem !important;
       padding: 0;
       .row.row-cols-sm {
-        padding-right: 0;
+        
+        nav{
+          display:none;
+        }
+        .localizacao{
+          margin-bottom: 1em !important;
+        }
         .col-sm-3 {
-          padding-right: 1em;
+          padding-bottom: 1em;
         }
         a.col-sm {
           margin: 1em 0;

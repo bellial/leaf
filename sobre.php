@@ -2,7 +2,7 @@
 
 	<main id="primary" class="site-main">
 
-		<section class="quem-somos d-flex flex-column align-items-center">
+		<section class="quem-somos container d-flex flex-column align-items-center">
             <h1 class="py-5">Sobre</h1>	
 		    <section class="col-sm-8 pb-5">	
                 <img src="./assets/images/marina.png" alt="Marina Almeida" class="img-fluid">

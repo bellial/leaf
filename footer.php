@@ -1,10 +1,10 @@
 <footer id="colophon" class="site-footer">
 	<div class="container row justify-content-evenly mx-auto">
 		
-			<section class="row row-cols-sm">
-				<section class="col-sm-6 d-flex flex-nowrap">
+			<section class="row row-cols-sm align-items-center">
 				
-						<nav class="col-sm-3">
+				
+						<nav class="col-sm-2">
 							<ul class="nav-footer nav">
 								<li><a href="#" class="nav-link px-2 link-dark">sobre</a></li>
 								<li><a href="#" class="nav-link px-2 link-dark">dúvidas</a></li>
@@ -12,8 +12,8 @@
 								<li><a href="#" class="nav-link px-2 link-dark">contato</a></li>
 							</ul>
 						</nav>
-						<section class="localizacao col-sm d-flex justify-content-center">
-							<p>
+						<section class="localizacao col-sm">
+							<p class="m-0">
 								<strong>Localização</strong><br>
 								R. Santos Dumont, 182 - Sala 604<br>
 								Life Medical Tower - Centro<br>
@@ -21,16 +21,16 @@
 							</p>
 						</section>
 				
-				</section>
+				
 					<section class="col-sm-3">
-						<button type="button" class="btn btn-danger btn-sm rounded-pill align-items-center d-flex justify-content-evenly p-4">
+						<button type="button" class="btn btn-danger btn-sm rounded-pill align-items-center d-flex justify-content-evenly">
 							<section class="text-start">
 								<p>Clique e agende sua consulta</p>
 							</section>
 							<img src="./assets/images/calmini.png" class="img-fluid">
 						</button>
 					</section>
-					<a href="/" class="col-sm">
+					<a href="/" class="col-sm text-end">
 						<img src="./assets/images/logo.png" alt="Logo Marina Almeida">
 					</a>
 			</section>
